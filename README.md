@@ -1,5 +1,7 @@
 # nvim-remove-trailing-whitespace
 
+Removes trailing whitespace when saving a buffer.
+
 Does this need to be a plugin? Probably not.
 
 ```
@@ -7,7 +9,7 @@ Does this need to be a plugin? Probably not.
     "joshddunn/nvim-remove-trailing-whitespace",
     config = function()
         require("nvim-remove-trailing-whitespace").setup({
-            pattern = "*"
+            pattern = "*" // default value
         })
     end
 }
